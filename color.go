@@ -9,6 +9,9 @@ const (
 
 	//Colors
 	ResetColor = "\033[0m"
+	Bold       = "\033[1m"
+	Faint      = "\033[2m"
+	Normal     = "\033[22m"
 
 	BlackFg   = "\033[30m"
 	RedFg     = "\033[31m"

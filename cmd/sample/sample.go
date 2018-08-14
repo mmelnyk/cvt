@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	fmt.Println(cvt.BrWhiteFg, "Example Table", cvt.ResetColor)
+	fmt.Println(cvt.Bold+cvt.BrWhiteFg, "Example Table", cvt.ResetColor)
 
 	if !cvt.IsTerminal() {
 		fmt.Println("Is terminal available?")
