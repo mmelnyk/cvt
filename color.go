@@ -56,4 +56,10 @@ const (
 	MoveBegin    = "\033[G" // Format is CSI Column G
 	SavePos      = "\033[s"
 	RestorePos   = "\033[u"
+
+	// Tabs
+	TabSet   = "\033H"
+	TabClear = "\033[3g"
+	Tab      = "\033[I"
+	TabBack  = "\033[Z"
 )
